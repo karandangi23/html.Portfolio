@@ -1,0 +1,79 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+/* Title styling */
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Subheadings */
+h3 {
+    color: #34495e;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+/* Image styling */
+img {
+    display: block;
+    margin: 10px auto;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+}
+
+/* Preformatted text styling */
+pre {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    line-height: 1.6;
+    white-space: pre-wrap; /* Allows wrapping of long lines */
+}
+
+/* Section styling */
+section {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Links */
+a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive tweaks */
+@media screen and (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    pre {
+        font-size: 0.95rem;
+    }
+}
